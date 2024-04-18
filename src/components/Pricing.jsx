@@ -14,7 +14,7 @@ export const Pricing = () => {
           <p>the majority have suffered alteration in some form.</p>
         </p>
       </div>
-      <div className="grid grid-cols-3 sm:grid-cols-1">
+      <div className="grid grid-cols-3">
         <div className="w-[300px] h-[60vh] border rounded-lg scale-x-110 hover:scale-x-125 pt-4 pb-4 pr-6 pl-6 ml-14 mt-10 ">
           <div>
             <div className="flex flex-row items-center justify-center pt-10 pb-6">

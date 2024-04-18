@@ -8,7 +8,6 @@ import { GoSearch } from "react-icons/go";
 import { SiMaterialdesignicons } from "react-icons/si";
 import { FaKipSign } from "react-icons/fa6";
 import { RxDividerHorizontal } from "react-icons/rx";
-import { Pricing } from "./Pricing";
 
 export const Sidebar = () => {
   //   const Dropdown = () => {
@@ -34,7 +33,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="flex flex-col justify-between items-start pl-4 border-s-4 w-[300px] h-[100vh] bg-white-200 shadow-lg shadow-white-100/20 sm:hidden">
+    <div className="flex flex-col justify-between items-start pl-4 border-s-4 w-[300px] h-[100vh] bg-white-200 shadow-lg shadow-white-100/20 ">
       <div className="flex flex-row gap-2 justify-between mt-4 pl-4 font-bold text-4xl	">
         <span className="text-center pt-1">
           {" "}
@@ -133,7 +132,6 @@ export const Sidebar = () => {
       <div className="flex flex-row gap-4 pl-10 pb-4 pt-2 text-3xl">
         <BsCart2 />
       </div>
-      {/* <Pricing className=""/> */}
     </div>
   );
 };
