@@ -33,7 +33,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="flex flex-col justify-between items-start pl-4 border-s-4 w-[300px] h-[100vh] bg-white-200 shadow-lg shadow-white-100/20 ">
+    <div className="lg:flex flex-col justify-between items-start pl-4 border-s-4 w-[300px] h-[100vh] bg-white-200 shadow-lg shadow-white-100/20 hidden">
       <div className="flex flex-row gap-2 justify-between mt-4 pl-4 font-bold text-4xl	">
         <span className="text-center pt-1">
           {" "}
