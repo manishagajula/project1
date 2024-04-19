@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import { TestimonialData } from "../data/testimonialData";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
