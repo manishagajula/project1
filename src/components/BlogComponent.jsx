@@ -1,4 +1,3 @@
-// BlogComponent.js
 import React, { useState } from "react";
 import { BlogsData } from "../data/blogs";
 import { Blog } from "../components/Blogs";
