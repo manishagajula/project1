@@ -78,7 +78,7 @@ var settings = {
 export const Testimonial = () => {
   return (
     <div className=" relative">
-      <div className="mb-10">
+      <div className="mb-10 ml-48">
         <p className="text-4xl font-bold text-center mt-10">
           What our users says{" "}
         </p>
@@ -86,7 +86,7 @@ export const Testimonial = () => {
           Testimonials from our existing customers
         </p>
       </div>
-      <div className=" slider-container w-[1200px] h-[300px]">
+      <div className=" slider-container w-[1140px] h-[300px] ml-72">
         <Slider {...settings}>
           <div className="border rounded-2xl w-[600px] pt-4 flex flex-col items-center justify-center">
             <div className="flex flex-row items-start justify-start ml-6">

@@ -3,18 +3,18 @@ import { FaRegCheckCircle } from "react-icons/fa";
 export const Pricing = () => {
   return (
     <div>
-      <div className="flex flex-col gap-5 items-center justify-center lg:ml-30 mt-10">
-        <button className="border-2 rounded-full border-violet-700 pr-6 pl-6 pt-1 pb-1 text-violet-700 font-bold">
+      <div className="flex flex-col gap-4 items-center justify-center lg:ml-40 mt-10">
+        <button className="border-2 rounded-full border-violet-700 pr-6 pl-6 pt-1 pb-1 text-center text-violet-700 font-bold">
           Pricing
         </button>
         <h2 className="text-3xl font-bold ">Pricing & Plans</h2>
-        <p>
+        <p className="text-center">
           {" "}
           There are many variations of passages of Lorem Ipsum available, but
           <p>the majority have suffered alteration in some form.</p>
         </p>
       </div>
-      <div className="lg:grid grid-cols-3 flex flex-col justify-center items-center">
+      <div className="lg:grid grid-cols-3 gap-24 flex flex-col justify-center items-center w-[1000px] ml-72">
         <div className="w-full lg:w-[300px] flex flex-col items-center h-[60vh] border rounded-lg scale-x-110 hover:scale-x-125 pt-4 pb-4 pr-6 pl-6 lg:ml-14 mt-10">
           <div className="flex flex-row items-center justify-center pt-10 pb-6">
             <button className="border-2 rounded-full border-violet-700 pr-6 pl-6 pt-1 pb-1 text-violet-700 font-bold">

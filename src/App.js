@@ -21,11 +21,16 @@ function App() {
         >
           <GiHamburgerMenu />
         </div>
-
-        <Pricing />
-        <Testimonial />
+        <div>
+          <Pricing />
+        </div>
+        <div>
+          <Testimonial />
+        </div>
         {/* <Blogs /> */}
-        <BlogComponent />
+        <div className="ml-72">
+          <BlogComponent />
+        </div>
         {showMobileSidebar && <MobileSidebar />}
       </div>
     </div>

@@ -10,11 +10,9 @@ import { FaKipSign } from "react-icons/fa6";
 import { RxDividerHorizontal } from "react-icons/rx";
 
 export const Sidebar = () => {
-  //   const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenSecondButton, setIsOpenSecondButton] = useState(false);
   const [selectedText, setSelectedText] = useState("");
-  //   const [Changebackground, setChangebackground] = useState("bg-slate-50	");
 
   const handleMouseEnter = () => {
     setIsOpen(true);
@@ -33,7 +31,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="lg:flex flex-col space-y-2 items-start pl-4 border-s-4 w-[300px] h-[200vh] bg-white-200 shadow-lg shadow-white-100/20 hidden pr-10">
+    <div className="lg:flex flex-col space-y-2 items-start pl-4 border-s-4 w-[280px] h-[200vh] bg-white-200 shadow-lg shadow-white-100/20 hidden pr-10 fixed top-[0px]">
       <div className="flex flex-row gap-2 justify-between mt-4 pl-4 font-bold text-4xl	">
         <span className="text-center pt-1">
           {" "}
