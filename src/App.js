@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { MobileSidebar } from "./components/MobileSidebar";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+import { Blogs } from "./components/Blogs";
 
 function App() {
   const [showMobileSidebar, setShowMobileSidebar] = useState(false);
@@ -23,6 +24,7 @@ function App() {
 
         <Pricing />
         <Testimonial />
+        <Blogs />
         {showMobileSidebar && <MobileSidebar />}
       </div>
     </div>

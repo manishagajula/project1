@@ -33,7 +33,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="lg:flex flex-col justify-between items-start pl-4 border-s-4 w-[300px] h-[100vh] bg-white-200 shadow-lg shadow-white-100/20 hidden">
+    <div className="lg:flex flex-col space-y-2 items-start pl-4 border-s-4 w-[300px] h-[200vh] bg-white-200 shadow-lg shadow-white-100/20 hidden pr-10">
       <div className="flex flex-row gap-2 justify-between mt-4 pl-4 font-bold text-4xl	">
         <span className="text-center pt-1">
           {" "}
@@ -114,7 +114,7 @@ export const Sidebar = () => {
         <FaKipSign />
       </div>
       <div className="flex flex-row pl-10 pb-2 pt-4">
-        <button className="flex flex-row text-lg border rounded-lg pr-4 pl-4 pt-2 pb-2 bg-indigo-500 hover:bg-indigo-600 text-white">
+        <button className="flex flex-row text-md border rounded-lg pr-4 pl-4 pt-2 pb-2 bg-indigo-500 hover:bg-indigo-600 text-white">
           {" "}
           <TiKeyOutline className="text-2xl" />
           All-Access Pass
