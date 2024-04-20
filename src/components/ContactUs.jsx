@@ -46,7 +46,7 @@ export const ContactUs = () => {
           <div className="flex flex-col gap-1">
             <h2 className="font-bold text-violet-700 text-2xl">Schedule</h2>
             <p className="text-gray-500">24 Hours / 7 Days</p>
-            <p>Open Office time: 10 AM - 5:30 PM</p>
+            <p className="text-gray-500">Open Office time: 10 AM - 5:30 PM</p>
           </div>
         </div>
       </div>
