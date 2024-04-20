@@ -31,8 +31,8 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="lg:flex flex-col space-y-2 items-start pl-4 border-s-4 w-[280px] h-[200vh] bg-white-200 shadow-lg shadow-white-100/20 hidden pr-10 fixed top-[0px]">
-      <div className="flex flex-row gap-2 justify-between mt-4 pl-4 font-bold text-4xl	">
+    <div className="lg:flex flex-col space-y-2 items-start pl-4 border-s-4 w-[280px] h-[200vh] bg-white-200 shadow-lg shadow-white-100/20 hidden pr-10 sticky top-[0px] ">
+      <div className="flex flex-row gap-2 justify-between mt-4 pl-4 font-bold text-4xl	relative">
         <span className="text-center pt-1">
           {" "}
           <RiBox1Line />
@@ -56,14 +56,14 @@ export const Sidebar = () => {
             </button>
           </div>
           {isOpen && (
-            <ul className="text-lg shadow-white border rounded-lg p-4 gap-6 grid grid-cols-2 items-start justify-start bg-slate-50	">
+            <ul className="text-lg shadow-white border rounded-lg p-4 mt-14 gap-6 grid grid-cols-2 items-start justify-start bg-slate-50	absolute">
               <li>Business site Templates</li>
               <li>Saas landing Pages</li>
               <li>Tailwind Templates</li>
               <li>Portfolio Templates</li>
               <li>Startup Landing Pages</li>
               <li>App landing Pages</li>
-              <li>One Page Templates</li>
+              <li>One Page Templates</li>``
               <li>Browse All Templates</li>
             </ul>
           )}
@@ -72,10 +72,10 @@ export const Sidebar = () => {
         <div
           onMouseEnter={handleMouseEnterOnSecondButton}
           onMouseLeave={handleMouseLeaveOnSecondButton}
-          className=" flex flex-col gap-4"
+          className=" flex flex-col"
         >
           <div className="flex flex-row pl-10">
-            <button className="flex flex-row gap-4 text-xl border rounded-lg pr-2 pl-2 pt-2 pb-2 hover:text-violet-700 ">
+            <button className="flex flex-row gap-4 text-xl border rounded-lg pr-2 pl-2 pt-2 pb-2 hover:text-violet-700 mb-6">
               Resources{" "}
               <span className="pt-1">
                 {" "}
@@ -92,12 +92,12 @@ export const Sidebar = () => {
         </div>
       </div>
       <div className="">
-        <button className=" flex flex-row items-start justify-start text-xl border p-2 ml-10 rounded-lg hover:text-violet-700">
+        <button className=" flex flex-row items-start justify-start text-xl border p-2 ml-10 rounded-lg hover:text-violet-700 mb-8">
           {" "}
           Support{" "}
         </button>
       </div>
-      <div className="border-solid rounded-2 flex flex-row border rounded-md items-center p-2 mt-6 ml-10">
+      <div className="border-solid rounded-2 flex flex-row border rounded-md items-center p-2 mb-12 ml-10">
         <GoSearch />
 
         <input

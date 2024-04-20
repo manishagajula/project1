@@ -12,7 +12,7 @@ function SampleNextArrow(props) {
         background: "#3437eb",
         color: "#3437eb",
         position: "absolute",
-        right: "2px",
+        left: "1140px",
       }}
       onClick={onClick}
     />
@@ -30,7 +30,7 @@ function SamplePrevArrow(props) {
         background: "#3437eb",
         color: "#3437eb",
         position: "absolute",
-        left: "4px",
+        right: "1140px",
         zIndex: 20,
       }}
       onClick={onClick}
@@ -77,8 +77,8 @@ var settings = {
 
 export const Testimonial = () => {
   return (
-    <div className=" relative">
-      <div className="mb-10 ml-48">
+    <div className=" relative mb-0">
+      <div className="mb-10">
         <p className="text-4xl font-bold text-center mt-10">
           What our users says{" "}
         </p>
@@ -86,10 +86,10 @@ export const Testimonial = () => {
           Testimonials from our existing customers
         </p>
       </div>
-      <div className=" slider-container w-[1140px] h-[300px] ml-72">
+      <div className=" slider-container w-[1140px] h-[300px] ml-8">
         <Slider {...settings}>
           <div className="border rounded-2xl w-[600px] pt-4 flex flex-col items-center justify-center">
-            <div className="flex flex-row items-start justify-start ml-6">
+            <div className="flex flex-row items-start justify-start ml-4">
               <div className="mt-2">
                 <img
                   src="https://images.unsplash.com/photo-1527082395-e939b847da0d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
@@ -142,7 +142,7 @@ export const Testimonial = () => {
           </div>
 
           <div className="border rounded-2xl w-[600px] pt-4 flex flex-col items-center justify-center">
-            <div className="flex flex-row items-start justify-start ml-6">
+            <div className="flex flex-row items-start justify-start ml-4">
               <div className="mt-2">
                 <img
                   src="https://images.unsplash.com/photo-1582790824499-9a5acab895b1?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Ds"
@@ -165,7 +165,7 @@ export const Testimonial = () => {
           </div>
 
           <div className="border rounded-2xl w-[600px] pt-4 flex flex-col items-center justify-center">
-            <div className="flex flex-row items-start justify-start ml-6">
+            <div className="flex flex-row items-start justify-start ml-4">
               <div className="mt-2">
                 <img
                   src="https://plus.unsplash.com/premium_photo-1682098022877-593355cd975a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Ym95c3xlbnwwfHwwfHx8MA%3D%3D"
@@ -190,7 +190,7 @@ export const Testimonial = () => {
           </div>
 
           <div className="border rounded-2xl w-[600px] pt-4 flex flex-col items-center justify-center">
-            <div className="flex flex-row items-start justify-start ml-6">
+            <div className="flex flex-row items-start justify-start ml-4">
               <div className="mt-2">
                 <img
                   src="https://images.unsplash.com/photo-1614031690812-c20810796cb9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGJveXN8ZW58MHx8MHx8fDA%3D"
@@ -215,7 +215,7 @@ export const Testimonial = () => {
           </div>
 
           <div className="border rounded-2xl w-[600px] pt-4 flex flex-col items-center justify-center">
-            <div className="flex flex-row items-start justify-start ml-6">
+            <div className="flex flex-row items-start justify-start ml-4">
               <div className="mt-2">
                 <img
                   src="https://images.unsplash.com/photo-1511551203524-9a24350a5771?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

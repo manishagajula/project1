@@ -8,6 +8,8 @@ import { MobileSidebar } from "./components/MobileSidebar";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 import { BlogComponent } from "./components/BlogComponent";
+import { ContactUs } from "./components/ContactUs";
+import { Map } from "./components/Map";
 
 function App() {
   const [showMobileSidebar, setShowMobileSidebar] = useState(false);
@@ -28,8 +30,10 @@ function App() {
           <Testimonial />
         </div>
         {/* <Blogs /> */}
-        <div className="ml-72">
+        <div className="">
           <BlogComponent />
+          <ContactUs />
+          <Map />
         </div>
         {showMobileSidebar && <MobileSidebar />}
       </div>
